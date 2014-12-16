@@ -37,7 +37,12 @@ features <- read.table(file = features.file)
 
 # 2.  use regular expression to decide column indices and names
 colIndices <- which(regexpr("-mean\\(\\)|-std\\(\\)", features$V2) != -1)
-colNames <- tolower(gsub("-","",sub("\\(\\)","",features[colIndices,"V2"])))
+colNames <- tolower(
+    sub("BodyBody", "Body",
+        gsub("-","",
+             sub("\\(\\)","",
+                 features[colIndices,"V2"]))))
+
 rm(features)
 
 dataset.levels <- c("train", "test")

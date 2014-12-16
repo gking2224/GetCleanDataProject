@@ -66,19 +66,19 @@ The full list of variables in this file is:
 - fbodyaccjerkmeany
 - fbodyaccjerkmeanz
 - fbodyaccjerkstdx
-fbodyaccjerkstdy
-fbodyaccjerkstdz
-fbodygyromeanx
-fbodygyromeany
-fbodygyromeanz
-fbodygyrostdx
-fbodygyrostdy
-fbodygyrostdz
-fbodyaccmagmean
-fbodyaccmagstd
-fbodybodyaccjerkmagmean
-fbodybodyaccjerkmagstd
-fbodybodygyromagmean
-fbodybodygyromagstd
-fbodybodygyrojerkmagmean
-fbodybodygyrojerkmagstd
+- fbodyaccjerkstdy
+- fbodyaccjerkstdz
+- fbodygyromeanx
+- fbodygyromeany
+- fbodygyromeanz
+- fbodygyrostdx
+- fbodygyrostdy
+- fbodygyrostdz
+- fbodyaccmagmean
+- fbodyaccmagstd
+- fbodybodyaccjerkmagmean
+- fbodybodyaccjerkmagstd
+- fbodybodygyromagmean
+- fbodybodygyromagstd
+- fbodybodygyrojerkmagmean
+- fbodybodygyrojerkmagstd

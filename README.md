@@ -46,7 +46,9 @@ This included 3 mean() and std() measures for all of the tri-axial variables (e.
 
 As such, 66 columns in total were selected from the raw dataset, resulting from 5x 't' tri-axial variables, 5x 't' uni-axial variables, 3x 'f' tri-axial variables and 4x 'f' uni-axial variables.
 
-The selected feature names were normalised in the dataset by removing any punctuation characters (i.e. brackets and hyphens) and converting to lower case. In this way, `tBodyAcc-mean()-X` becomes `tbodyaccmeanx`
+The selected feature names were normalised in the dataset by removing any punctuation characters (i.e. brackets and hyphens) and converting to lower case. In this way, `tBodyAcc-mean()-X` becomes `tbodyaccmeanx`.
+
+Finally, a comparison of the features_info.txt file describing the features, and the list of feature names in features.txt indicated that 3 of the features included a typo, duplicated the word 'Body' e.g. fBodyBodyGyroJerkMag. This duplication has been removed in my final dataset.
 
 Data processing steps
 ---------------------
