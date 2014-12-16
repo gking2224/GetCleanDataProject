@@ -13,7 +13,7 @@ The source dataset consists of 561 different measurements recorded using the acc
 
 As such, the measurement data consists of many thousands of observations that can be grouped by dataset (training/test), subject (1-30), activity (1-6), with between 36 and 95 observations of the 561 measurement (features) for each combination of these factors.
 
-The file created contains the mean value of 66 of the total 561 measures, grouped by subject and activity.
+The file created contains the mean value of 66 of the total 561 measures, grouped by subject and activity. A description of this file can be found in CodeBook.md.
 
 Overview of source files used
 -----------------------------
