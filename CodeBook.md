@@ -76,9 +76,9 @@ The full list of variables in this file is:
 - fbodygyrostdz
 - fbodyaccmagmean
 - fbodyaccmagstd
-- fbodybodyaccjerkmagmean
-- fbodybodyaccjerkmagstd
-- fbodybodygyromagmean
-- fbodybodygyromagstd
-- fbodybodygyrojerkmagmean
-- fbodybodygyrojerkmagstd
+- fbodyaccjerkmagmean
+- fbodyaccjerkmagstd
+- fbodygyromagmean
+- fbodygyromagstd
+- fbodygyrojerkmagmean
+- fbodygyrojerkmagstd
